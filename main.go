@@ -7,6 +7,6 @@ import (
 )
 
 func main()  {
-  letras := contar_letras.ContarLetras() 
+  letras := contar_letras.ContarLetras("hola amikos") 
   fmt.Println(letras)
 }
